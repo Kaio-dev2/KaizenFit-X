@@ -1,0 +1,28 @@
+name: CI-Calculadora
+
+on:
+  push:
+    branches: [ "main", "master", "dev", "testes", "infra-ci-cd" ]
+  pull_request:
+    branches: [ "main", "master", "dev" ]
+
+jobs:
+  testes-logica:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout do código
+        uses: actions/checkout@v4
+
+      - name: 🟢 Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'npm'
+
+      - name: 📦 Instalar dependências
+        run: npm install
+
+      # Aqui é onde a mágica acontece de forma simples e direta
+      - name: 🧪 Executar Testes Unitários (Jest)
+        run: npm test

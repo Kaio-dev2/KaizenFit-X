@@ -1,0 +1,23 @@
+name: CD-Release (Versão Oficial)
+
+on:
+  push:
+    branches: [ "main" ]
+
+permissions:
+  contents: write # Precisa escrever nos "Releases" do repositório
+
+jobs:
+  build-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Clonar repositório
+        uses: actions/checkout@v4
+
+      - name: 📦 Criar Versão no GitHub
+        uses: softprops/action-gh-release@v2
+        with:
+          # Gera nomes como v1.0.1, v1.0.2...
+          tag_name: v1.0.${{ github.run_number }}
+          name: Release Automático v1.0.${{ github.run_number }}
+          generate_release_notes: true # Ele escreve sozinho o que mudou!
