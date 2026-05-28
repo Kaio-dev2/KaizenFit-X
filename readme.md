@@ -1,4 +1,4 @@
-# 🏋️ KaizenFit — Plataforma SaaS Fitness
+# KaizenFit — Plataforma SaaS Fitness
 
 > Plataforma completa de fitness com dashboard, treinos, nutrição, IA Coach, comunidade, loja e painel administrativo.
 
@@ -10,7 +10,7 @@
 
 ---
 
-## 📋 Índice
+## Índice
 
 - [Visão Geral](#visão-geral)
 - [Stack Tecnológica](#stack-tecnológica)
@@ -30,7 +30,7 @@
 
 ---
 
-## 🌟 Visão Geral
+## Visão Geral
 
 O KaizenFit é uma plataforma SaaS completa voltada para fitness e bem-estar. Oferece desde acompanhamento de treinos e nutrição até uma loja integrada com dropshipping e um painel administrativo completo para gerenciar toda a plataforma.
 
@@ -53,7 +53,7 @@ O KaizenFit é uma plataforma SaaS completa voltada para fitness e bem-estar. Of
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 ### Para Usuários
 - 🏠 **Dashboard** — visão geral de progresso, treinos e nutrição
@@ -76,7 +76,7 @@ O KaizenFit é uma plataforma SaaS completa voltada para fitness e bem-estar. Of
 
 ---
 
-## ✅ Pré-requisitos
+## Pré-requisitos
 
 Antes de começar, certifique-se de ter instalado:
 
@@ -108,7 +108,7 @@ postgresql://postgres.SEU_ID:SUA_SENHA@aws-0-us-east-1.pooler.supabase.com:6543/
 ```
 4. Substitua `SUA_SENHA` pela senha definida na criação do projeto
 
-> ⚠️ **Atenção:** Se sua senha contiver `@`, substitua por `%40` na URL para evitar erros de conexão.
+> **Atenção:** Se sua senha contiver `@`, substitua por `%40` na URL para evitar erros de conexão.
 
 **3. Configurar a variável de ambiente**
 
@@ -153,7 +153,7 @@ npm run db:push
 
 ---
 
-## 🔐 Variáveis de Ambiente
+## Variáveis de Ambiente
 
 Crie um arquivo `.env.local` na raiz do projeto com o seguinte conteúdo:
 
@@ -229,14 +229,14 @@ VAPID_PUBLIC_KEY=""
 VAPID_PRIVATE_KEY=""
 ```
 
-> 💡 **Dica:** Para gerar strings secretas seguras, use o comando:
+> **Dica:** Para gerar strings secretas seguras, use o comando:
 > ```bash
 > openssl rand -base64 32
 > ```
 
 ---
 
-## 🚀 Instalação e Execução
+## Instalação e Execução
 
 ```bash
 # 1. Clone o repositório
@@ -262,7 +262,7 @@ Acesse **http://localhost:3000** no navegador.
 
 ---
 
-## 🛡 Acesso ao Painel Admin
+## Acesso ao Painel Admin
 
 O painel administrativo é acessado por uma URL dedicada e protegida, **invisível na navegação do site**.
 
@@ -368,7 +368,7 @@ kaizenfit/
 
 ---
 
-## 🔒 Segurança
+## Segurança
 
 O projeto implementa múltiplas camadas de segurança:
 
@@ -385,7 +385,7 @@ O projeto implementa múltiplas camadas de segurança:
 
 ---
 
-## 🌐 Deploy
+## Deploy
 
 ### Vercel (Recomendado)
 
@@ -457,7 +457,7 @@ Se der erro, verifique se a `DATABASE_URL` está correta no `.env.local`.
 
 ---
 
-## 📝 Scripts Disponíveis
+## Scripts Disponíveis
 
 | Comando | Descrição |
 |---------|-----------|
@@ -469,7 +469,7 @@ Se der erro, verifique se a `DATABASE_URL` está correta no `.env.local`.
 
 ---
 
-## 📄 Licença
+## Licença
 
 Este projeto é privado e proprietário. Todos os direitos reservados.
 
