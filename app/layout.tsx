@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Kaizen Fit AI',
-    description: 'Transforme seu corpo com inteligência artificial',
+    description: 'Sua melhor versão começa agora',
   },
   appleWebApp: {
     capable: true,
