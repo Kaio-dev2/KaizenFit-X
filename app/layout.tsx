@@ -14,13 +14,13 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Kaizen Fit AI - Transforme Seu Corpo com Inteligência Artificial',
+  title: 'Kaizen Fit AI - Sua melhor versão começa agora',
   description: 'A plataforma de fitness mais avançada do mundo. Treinos personalizados por IA, nutrição inteligente e uma comunidade que te impulsiona a alcançar resultados extraordinários.',
   keywords: ['fitness', 'IA', 'treino', 'nutrição', 'saúde', 'personal trainer', 'academia'],
   authors: [{ name: 'Kaizen Fit AI' }],
   manifest: '/manifest.json',
   openGraph: {
-    title: 'Kaizen Fit AI - Transforme Seu Corpo com Inteligência Artificial',
+    title: 'Kaizen Fit AI - Sua melhor versão começa agora',
     description: 'A plataforma de fitness mais avançada do mundo. Treinos personalizados por IA, nutrição inteligente.',
     type: 'website',
   },
